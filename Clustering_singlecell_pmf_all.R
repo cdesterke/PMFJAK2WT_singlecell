@@ -42,7 +42,9 @@ DimPlot(sub, reduction = "tsne",group.by = "patients",pt.size=2.5,cols=cols25(8)
 Idents(object = npm) <- 'mutations'
 Idents(object = npm)
 
-
+## find clusters
+npm <- FindNeighbors(npm, dims = 1:30)
+npm <- FindClusters(npm, resolution = 1,algorithm=2)
 
 ### subseting
 wt<-WhichCells(npm, idents = "WT" , slot ="data")
