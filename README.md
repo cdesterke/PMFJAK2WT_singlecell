@@ -5,7 +5,7 @@ R Scripts used for single cell analysis of PMF wild-type single cell transcripto
 
 > a script with code for single cell analysis in Seurat R-package
 
-> a script with code cell cycle phase progression
+> a script with code for cell cycle phase progression analysis
 
 > a script to perform inference of TARGET-seq mutatome on barplot of single cell transcriptome clustering
 
