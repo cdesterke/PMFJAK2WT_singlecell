@@ -2,9 +2,13 @@
 R Scripts used for single cell analysis of PMF wild-type single cell transcriptome
 
 ## this website comprised the R scripts wrote to analyze multimodal single cell analyses of GEO dataset GSE122198.
+
 > a script with code for single cell analysis in Seurat R-package
+
 > a script with code cell cycle phase progression
+
 > a script to perform inference of TARGET-seq mutatome on barplot of single cell transcriptome clustering
+
 > a script to perform monocle single cell trajectory
 
 ## References
